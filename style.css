@@ -1,18 +1,36 @@
 .cont {
   position: relative;
-  background: linear-gradient(grey, #471D30);
+  background: linear-gradient(#010147, #290A96);
 }
 
 .cont2 {
   height: 100%;
-  background: linear-gradient(#471D30, #3E2547) ;
+  background: linear-gradient(#290A96, #471D30) ;
   color: white;
+  font-family: 'Russo One', sans-serif;
 }
 
 .cont3 {
   height: 100%;
-  background: linear-gradient(#3E2547, #3F472C) ;
+  background: linear-gradient(#471D30, #873E38) ;
   color: white;
+  font-family: 'Russo One', sans-serif;
+}
+
+.cont4 {
+  height: 100%;
+  background: linear-gradient(#873E38, #F0AD40);
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+}
+
+.cont5 {
+  height: 100%;
+  background: linear-gradient(#F0AD40, #FFFFFF);
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
 }
 
 .img {
@@ -54,7 +72,7 @@
   margin: 0 15px 30px;
   padding: 15px;
   border-radius: 30px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+  box-shadow: 10px 10px 35px 10px rgba(0, 0, 0, 1);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -219,5 +237,55 @@ h1 {
 .textspan {
   margin: auto;
   align-items: center;
+}
 
+.languagesCol {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 300px;
+}
+
+.htmlcssjsImg {
+  flex-grow: 1;
+  height: 200px;
+  width: 600px;
+}
+
+.languageRow2 {
+  margin: 25px 0;
+
+}
+
+.bootstrapImg {
+  height: 200px;
+  width: 200px;
+
+}
+
+.jqueryImg {
+  height: 200px;
+  width: 200px;
+}
+
+.contactCol {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkedinLink {
+  height: 100px;
+  length: 250px;
+}
+
+.gmailLogo {
+  height: 25px;
+  width: 25px;
+}
+
+.contactList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
 }
